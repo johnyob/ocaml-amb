@@ -1,0 +1,4 @@
+(library
+ (name example)
+ (preprocess (pps ppx_let))
+ (libraries base amb))
